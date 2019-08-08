@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="hotel-stylesheet.css"/>
+</head>
+<body>
+    <!--This will be displayed when menu clicked-->
+    <div class="side-nav" id="side-nav">
+        <div class="menu-item" onclick="HideMenu()"><a href="#">x</a></div>
+        <div class="menu-item"><a href="#">Home</a></div>
+        <div class="menu-item rooms">
+            <div onclick="DisplayRooms()"><a href="#">Rooms</a></div>
+            <div class="sub-rooms">
+                <ul>
+                    <li><a href="#">Room Type 1</a></li>
+                    <li><a href="#">Room Type 2</a></li>
+                    <li><a href="#">Room Type 3</a></li>
+                </ul>
+            </div>    
+        </div>
+        <div class="menu-item"><a href="#">Campaigns</a></div>
+        <div class="menu-item"><a href="#">News</a></div>
+        <div class="menu-item"><a href="#">Contact</a></div>
+        <div class="menu-item sign-in">
+            <div><a href="#" onclick="DisplaySignInForm()">Sign In</a></div>
+            <div class="sign-in-form">
+                <form>          
+                    <label>Username</label>
+                    <input type="text"/>
+                    <label>Password</label>
+                    <input type="password"/>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+        <div class="menu-item"><a href="#">Sign Up</a></div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="menu" onclick="DisplayMenu()">&#9776;</div>
+            <div class="logo">
+                <a href="index.html"><img src="content/images/sample-image.png" alt="hotel-logo" /></a>
+            </div>
+        </div>
+
+        <div class="hotel-search-form">
+            <form id="search-form" class="search-form" name="search-form" action="" method="">
+                <fieldset>
+                    <label>Hotel Name</label>
+                    <input type="text" placeholder="Country, city or hotel name..." />
+                </fieldset>
+                <fieldset>
+                    <label>Enter</label>
+                    <input type="date" />
+                </fieldset>
+                <fieldset>
+                    <label>Exit</label>
+                    <input type="date" />
+                </fieldset>
+                <input id="find-hotel-button" type="submit" value="Find Hotel" />
+            </form>
+        </div>
+
+        <div class="campaign-container">
+            <div class="campaign-picture">
+                <img src="content/images/sample-image.png" />
+                <a href="#"><div class="more-info">More Info</div></a>
+            </div>
+            <div class="campaign-picture">
+                <img src="content/images/sample-image.png" />
+                <a href="#"><div class="more-info">More Info</div></a>
+            </div>
+        </div>
+
+        <div class="explore-hotels-container">
+            <div class="explore-hotels">
+                <img src="content/images/sample-image.png" />
+                <div class="user-rating">User Rating</div>
+                <a href="#"><div class="more-info">Explore</div></a>
+            </div>
+            <div class="explore-hotels">
+                <img src="content/images/sample-image.png" />
+                <div class="user-rating">User Rating</div>
+                <a href="#"><div class="more-info">Explore</div></a>
+            </div>
+            <div class="explore-hotels">
+                <img src="content/images/sample-image.png" />
+                <div class="user-rating">User Rating</div>
+                <a href="#"><div class="more-info">Explore</div></a>
+            </div>
+            <div class="explore-hotels">
+                <img src="content/images/sample-image.png" />
+                <div class="user-rating">User Rating</div>
+                <a href="#"><div class="more-info">Explore</div></a>
+            </div>
+        </div>
+        <div class="social-media">
+            <div><a href="https://facebook.com/" target="_blank">Facebook</a></div>
+            <div><a href="https://twitter.com/" target="_blank">Twitter</a></div>
+            <div><a href="https://www.instagram.com/" target="_blank">Instagram</a></div>
+            <div><a href="https://pinterest.com/" target="_blank">Pinterest</a></div>
+        </div>
+        <div class="footer">
+            <div class="footer-line"></div>
+            <div class="footer-image">
+                <a href="#"><img src="content/images/sample-image.png" /></a>
+            </div>
+            <div class="footer-line"></div>
+        </div>
+        <div style="color: #000; text-align: center; padding: 5% 0; font-size: 60%;">Designed by Sezer - 2019</div>
+    </div>
+
+    <script src="hotel-script.js"></script>
+</body>
+</html>

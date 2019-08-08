@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{831A3A2B-6E8C-4E1D-8AF2-BEB618EB975C}"
+	ProjectSection(SolutionItems) = preProject
+		hotel-script.js = hotel-script.js
+		hotel-stylesheet.css = hotel-stylesheet.css
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{90CA1ABC-2133-46AC-8B53-CFD9D24A40BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{96DAE1E7-877B-4A70-A112-B81F0D77155B}"
+	ProjectSection(SolutionItems) = preProject
+		content\images\home-button.png = content\images\home-button.png
+		content\images\sample-image.png = content\images\sample-image.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96DAE1E7-877B-4A70-A112-B81F0D77155B} = {90CA1ABC-2133-46AC-8B53-CFD9D24A40BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040DD3B3-A37E-47F1-AB8A-9EF124C63F9C}
+	EndGlobalSection
+EndGlobal
