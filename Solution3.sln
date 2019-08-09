@@ -5,9 +5,16 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{831A3A2B-6E8C-4E1D-8AF2-BEB618EB975C}"
 	ProjectSection(SolutionItems) = preProject
+		explore1.html = explore1.html
+		explore2.html = explore2.html
+		explore3.html = explore3.html
+		explore4.html = explore4.html
 		hotel-script.js = hotel-script.js
 		hotel-stylesheet.css = hotel-stylesheet.css
 		index.html = index.html
+		room-type-1.html = room-type-1.html
+		room-type-2.html = room-type-2.html
+		room-type-3.html = room-type-3.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{90CA1ABC-2133-46AC-8B53-CFD9D24A40BD}"

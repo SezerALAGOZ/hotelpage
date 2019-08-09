@@ -65,11 +65,8 @@ a:active, a:focus {
 input {
     color: #000;
 }
-body {
-    border: 1px solid rgba(136, 78, 78, 0.80);
-}
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2048px) {
     .side-nav {
         display: none;
     }
@@ -80,8 +77,11 @@ body {
         left: 90%;
         transition: color 0.5s ease-in;
     }
-    .menu-item:hover a{
+    .menu-item a:hover {
         color: #8f8585;
+    }
+    .menu-item:first-child a:hover {
+        color: #db4444;
     }
     
     .sub-rooms {
@@ -289,7 +289,6 @@ body {
         padding: 2%;
     }
 
-
     .user-rating {
         width: 50%; /*You can change this according to content size*/
         font-size: 60%;
@@ -299,9 +298,22 @@ body {
         border-radius: 50px;
         z-index: 1;
     }
+
+    .search-form {
+        background: #211c1c;
+        padding: 5%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+
+    .sub-rooms li {
+        padding: 2%;
+    }
+
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 2048px) {
 
     .explore-hotels-container {
         display: grid;
@@ -322,7 +334,6 @@ body {
         padding: 2%;
     }
 
-
     .user-rating {
         width: 50%; /*You can change this according to content size*/
         font-size: 60%;
@@ -333,5 +344,16 @@ body {
         z-index: 1;
     }
 
+    .search-form {
+        background: #211c1c;
+        padding: 5%;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+
+    .sub-rooms li {
+        padding: 1%;
+    }
 
 }
