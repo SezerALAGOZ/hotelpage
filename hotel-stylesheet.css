@@ -69,7 +69,7 @@ body {
     border: 1px solid rgba(136, 78, 78, 0.80);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .side-nav {
         display: none;
     }
@@ -106,7 +106,7 @@ body {
     }
     .sign-in-form button {
         display: block;
-        width: 50%;
+        width: 100%;
         text-align: center;
         background: #2598d0;
         border: none;
@@ -272,4 +272,66 @@ body {
         height: 15vh;
         padding: 5%;
     }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+    .explore-hotels-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .more-info {
+        font-size: 60%;
+        position: absolute;
+        top: 50vh;
+        left: 5vw;
+        padding: 2%;
+    }
+
+
+    .user-rating {
+        width: 50%; /*You can change this according to content size*/
+        font-size: 60%;
+        position: absolute;
+        top: 50vh;
+        left: 20vw;
+        border-radius: 50px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .explore-hotels-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .campaign-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .more-info {
+        font-size: 60%;
+        position: absolute;
+        top: 50vh;
+        left: 2vw;
+        padding: 2%;
+    }
+
+
+    .user-rating {
+        width: 50%; /*You can change this according to content size*/
+        font-size: 60%;
+        position: absolute;
+        top: 50vh;
+        left: 11vw;
+        border-radius: 50px;
+        z-index: 1;
+    }
+
+
 }
