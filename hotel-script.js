@@ -19,10 +19,20 @@ function DisplayMenu() {
 
 function DisplayRooms() {
     let rooms = document.getElementsByClassName('sub-rooms');
-    rooms[0].style.display = 'block'
+    if (rooms[0].style.display == 'none') {
+        rooms[0].style.display = 'block'
+    }
+    else {
+        rooms[0].style.display = 'none'
+    }
 }
 
 function DisplaySignInForm() {
-    let rooms = document.getElementsByClassName('sign-in-form');
-    rooms[0].style.display = 'block'
+    let signIn = document.getElementsByClassName('sign-in-form');
+    if (signIn[0].style.display == 'none') {
+        signIn[0].style.display = 'block'
+    }
+    else {
+        signIn[0].style.display = 'none'
+    }
 }
