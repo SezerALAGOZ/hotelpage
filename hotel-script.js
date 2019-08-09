@@ -1,7 +1,15 @@
 // JavaScript source code
 
-function HideMenu () {
-    document.getElementById('side-nav').style.display = 'none';
+function HideMenu() {
+    //We need this to hide menu.
+    document.getElementById('side-nav').style.display = 'none'; 
+
+    //When hiding menu, it is better to close open sub-menus of the menu.
+    let signIn = document.getElementsByClassName('sign-in-form');
+    signIn[0].style.display = 'none';
+
+    let rooms = document.getElementsByClassName('sub-rooms');
+    rooms[0].style.display = 'none'
 }
 
 function DisplayMenu() {
@@ -30,9 +38,9 @@ function DisplayRooms() {
 function DisplaySignInForm() {
     let signIn = document.getElementsByClassName('sign-in-form');
     if (signIn[0].style.display == 'none') {
-        signIn[0].style.display = 'block'
+        signIn[0].style.display = 'block';
     }
     else {
-        signIn[0].style.display = 'none'
+        signIn[0].style.display = 'none';
     }
 }

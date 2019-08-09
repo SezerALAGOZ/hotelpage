@@ -70,9 +70,6 @@ body {
 }
 
 @media only screen and (max-width: 460px) {
-    .menu-item {
-        border: 1px solid red;
-    }
     .side-nav {
         display: none;
     }
@@ -114,6 +111,10 @@ body {
         background: #2598d0;
         border: none;
     }
+    .sign-in-form input {
+        display: block;
+        width: 80%;
+    }
 
     .grid-container {
         display: grid;
@@ -131,7 +132,7 @@ body {
         padding: 3%;
     }
     .menu {
-        color: #fff;
+        color: #db4444;
         font-size: 200%;
         padding-left: 8vw;
         padding-top: 1vh;
